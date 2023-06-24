@@ -1,0 +1,27 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-size-adjust: none;
+}
+
+html {
+	height: 100vh;
+	color: $color_text_primary;
+	line-height: $font_line_height;
+	font-family: $font_family;
+	background: $color_background;
+}
+
+body {
+	min-height: 100%;
+	display: grid;
+}
+
+#app {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}

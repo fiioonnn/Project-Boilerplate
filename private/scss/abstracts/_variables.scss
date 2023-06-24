@@ -1,0 +1,67 @@
+//
+// Colors » Background
+//
+$color_background: #0f0f0f;
+//
+// Colors » Brand
+//
+$color_primary: #ff0000;
+$color_secondary: #0000ff;
+//
+// Colors » Text
+//
+$color_text: #ffffff;
+$color_text_highlight: rgba($color_text, 0.9);
+$color_text_primary: rgba($color_text, 0.6);
+$color_text_secondary: rgba($color_text, 0.3);
+//
+// Colors » Border
+//
+$color_border: #1f1f1f;
+//
+// Colors » RGB
+//
+$color_red: #ff0000;
+$color_green: #00ff00;
+$color_blue: #0000ff;
+$color_yellow: #ffff00;
+$color_orange: #ff7f00;
+$color_white: #ffffff;
+$color_black: #000000;
+//
+// Font » Family
+//
+$font_family: "Poppins", sans-serif;
+$font_family_alt: "Merriweather", $font_family;
+//
+// Font » Size
+//
+$font_size: 1rem;
+$font_size_h1: clamp(1.333rem, calc(0.758rem + 2.876vw), 4.209rem);
+$font_size_h2: clamp(1.333rem, calc(0.968rem + 1.824vw), 3.157rem);
+$font_size_h3: clamp(1.777rem, calc(1.658rem + 0.592vw), 2.369rem);
+$font_size_h4: clamp(1.333rem, calc(1.244rem + 0.444vw), 1.777rem);
+$font_size_h5: 1.333rem;
+$font_size_small: 0.75rem;
+//
+// Font » Weight
+//
+$font_weight_light: 300;
+$font_weight_regular: 400;
+$font_weight_bold: 700;
+//
+// Font » Line Height
+//
+$font_line_height: 1.5;
+$font_line_height_heading: 1.2;
+//
+// Other » Transition
+//
+$transition_base: 0.3s all ease;
+$transition_fast: 0.1s all ease;
+$transition_slow: 0.6s all ease;
+//
+// Other » Border Radius
+//
+$border_radius: 10px;
+$border_radius_large: 15px;
